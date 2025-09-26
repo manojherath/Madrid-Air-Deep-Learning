@@ -1,0 +1,47 @@
+# your custom ignores
+.venv/
+data/
+data_air_json/
+data_json/
+data_traffic_json/
+fl_model_weights/
+fl_models/
+model_weights/
+lstm_models_v1/
+
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# virtual envs (extra)
+env/
+venv/
+ENV/
+.env/
+
+# tests/coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+
+# notebooks
+.ipynb_checkpoints/
+
+# editors/OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
